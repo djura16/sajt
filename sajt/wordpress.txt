@@ -11,6 +11,7 @@ skills needed
 - Web design, Web development, Frontend, Backend, android and iOS development, Windows development
 
 1.home
+	- пројекти (за почетак линковати са примерима које ћемо направити за frameworks)
 2.skills 
  2.1. Web skills(CSS,HTML,JavaScript,PHP, TSQL)
  2.2. Other (Java, C#, C, Swift)
