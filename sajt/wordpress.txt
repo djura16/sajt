@@ -18,3 +18,7 @@ skills needed
 3.Frameworks (Bootstrap, jQuery....)
 4.about
 5.contact
+
+боје: 
+https://color.adobe.com/Deep-blue-shades-color-theme-10651393/?showPublished=true
+https://color.adobe.com/Copy-of-MY-US-Army-Reserve-color-theme-10663430/
