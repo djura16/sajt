@@ -14,5 +14,6 @@ skills needed
 2.skills 
  2.1. Web skills(CSS,HTML,JavaScript,PHP, TSQL)
  2.2. Other (Java, C#, C, Swift)
-2.about
-3.contact
+3.Frameworks (Bootstrap, jQuery....)
+4.about
+5.contact
