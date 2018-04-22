@@ -10,3 +10,6 @@ skills needed
 - Bootstrap, jQuery, CodeIgniter, Symfony, AngularJS, ReactJS, Android API, Swift Standard Library, MySQL,Oracle, SQL Server
 - Web design, Web development, Frontend, Backend, android and iOS development, Windows development
 
+1.home
+2.about
+3.contact
