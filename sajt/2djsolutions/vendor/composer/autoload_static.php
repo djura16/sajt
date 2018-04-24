@@ -121,6 +121,10 @@ class ComposerStaticInit9c2b824287f307268114be5badc778c4
             'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 36,
             'Doctrine\\Bundle\\DoctrineBundle\\' => 31,
         ),
+        'C' => 
+        array (
+            'Composer\\CaBundle\\' => 18,
+        ),
         'A' => 
         array (
             'App\\Tests\\' => 10,
@@ -431,6 +435,10 @@ class ComposerStaticInit9c2b824287f307268114be5badc778c4
         array (
             0 => __DIR__ . '/..' . '/doctrine/doctrine-bundle',
         ),
+        'Composer\\CaBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
+        ),
         'App\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
@@ -447,6 +455,13 @@ class ComposerStaticInit9c2b824287f307268114be5badc778c4
             'Twig_' => 
             array (
                 0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
+        ),
+        'S' => 
+        array (
+            'SensioLabs\\Security' => 
+            array (
+                0 => __DIR__ . '/..' . '/sensiolabs/security-checker',
             ),
         ),
         'P' => 
