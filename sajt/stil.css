@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #014A57;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    color: rgb(179, 179, 179);
 }
 
 #site {
@@ -14,7 +15,6 @@ body {
 header {
     grid-column: 1 / 8 span;
     display: grid;
-    position: sticky;
     grid-template-columns: auto 300px 300px 300px auto;
     background-color: #00030D;
 }
@@ -62,23 +62,98 @@ nav a:hover {
 #home {
     grid-column: 1 / 8 span;
     display: grid;
-    grid-template-columns: auto 300px 300px 300px auto;
+    grid-template-columns: auto 450px 450px auto;
+    background-color: rgb(212, 212, 212);
+    height: 800px;
+}
+
+#homeNaslov {
+    grid-column: 2;
+    margin-top: 100px;
+    color: black;
 }
 
 #container1 {
     grid-column: 2;
-    background-color: white;
-    text-align: justify;
-    margin:20px;
 }
 
-#container1 img {
+.containerHome {
+    background-color: white;
+    text-align: justify;
+    margin:100px 20px 100px 20px;
+    border: 2px dotted black;
+}
+
+.slikaHome {
     margin-left: 30px;
     margin-top: 20px;
 }
 
-#container1 h3, #container1 p {
+.containerHome h3, .containerHome p {
     margin: 10px 12px 10px 12px;
+}
+
+#skills {
+    grid-column: 8 span;
+    display: grid;
+    grid-template-columns: auto 150px 150px 150px 150px 150px 150px auto;
+    margin-bottom: 100px;
+    height: 800px;
+}
+
+#skillsNaslov {
+    grid-column: 2 / 6 span;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.skills {
+    grid-column: 2;
+}
+
+.logo {
+    margin: auto;
+    text-align: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+#about {
+    grid-column: 1 / 8 span;
+    display: grid;
+    grid-template-columns: auto 450px 450px auto;
+    background-color: rgb(212, 212, 212);
+    height: 800px;
+}
+
+#aboutNaslov{
+    grid-column: 2;
+    color: black;
+}
+
+.aboutUs {
+    color: black;
+    text-align: justify;
+    margin: 150px 20px;
+}
+
+.aboutUs h3 {
+    text-align: center;
+    text-shadow: 1px 1px 10px black;
+}
+
+.aboutUs img{
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+}
+
+#kica {
+    grid-column: 2;
 }
 
 footer{
@@ -88,17 +163,24 @@ footer{
     background-color: #001F29;
 }
 
+footer p {
+    display: inline;
+}
+
+footer p:first-child {
+    margin-top: 100px;
+}
+
 footer form {
     grid-column: 2;
-    color: white;
-    margin: auto;
+    margin-bottom: 20px;
 }
 
 footer input {
     padding: 10px;
     color: white;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.219);
     border: 0;
     border-radius: 20px;
 }

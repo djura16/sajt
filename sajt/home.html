@@ -6,7 +6,8 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="stil.css" />
-    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dist/aos.css">
 </head>
 <body>
     <div id="site">
@@ -19,41 +20,146 @@
                     <li><a href="#site">HOME</a></li>
                     <li><a href="#skills">SKILLS</a></li>
                     <li><a href="#frameworks">FRAMEWORKS</a></li>
-                    <li><a href="about">ABOUT US</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contacts">CONTACTS</a></li>
                 </ul>
             </nav>
         </header>
         <div id="home">
-            <div id="container1">
-                <img src="images/Web-Design.jpg" alt="test" width="200px">
+            <div id="homeNaslov"><h1>HOME</h1></div>
+            <div id="container1" class="containerHome" data-aos="fade-up">
+                <img src="images/Web-Design.jpg" alt="test" width="300px" class="slikaHome">
                 <h3>Lorem ipsum dolor sit amet consectetur</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, saepe in quo tempora rerum laudantium, accusamus labore iure assumenda reprehenderit dignissimos numquam veritatis omnis et quasi. Quae eius quod adipisci.</p>
             </div>
-            <div id="container2">
-                
+            <div id="container2" class="containerHome" data-aos="fade-up" data-aos-delay="500">
+                <img src="images/Web-Design.jpg" alt="test" width="300px" class="slikaHome">
+                <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, saepe in quo tempora rerum laudantium, accusamus labore iure assumenda reprehenderit dignissimos numquam veritatis omnis et quasi. Quae eius quod adipisci.</p>
             </div>
             <div id="container3">
                 
+            </div>
+        </div>
+        <div id="skills">
+            <div id="skillsNaslov"><h1>SKILLS</h1></div>
+            <div class="logo skills" data-aos="fade-up">
+                <img src="images/skills/html_logo.png" alt="html">
+                <p>HTML5</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/skills/css_logo.png" alt="css">
+                <p>CSS3</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/skills/PHP.png" alt="php" style="width: 150px">
+                <p>PHP</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="300">
+                <img src="images/skills/javascript.svg" alt="JS">
+                <p>JavaScript</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="400">
+                <img src="images/skills/Boostrap_logo.svg" alt="bootstrap">
+                <p>Bootstrap</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="500">
+                <img src="images/skills/jquery-logo.jpg" alt="jquery" width="150px">
+                <p>JQuery</p>
+            </div>
+            <div class="logo skills" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/skills/Angular.jpg" alt="Angular">
+                <p>AngularJS</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/skills/reactJS.png" alt="reactJS">
+                <p>React</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="300">
+                <img src="images/skills/symfony.png" alt="simfony">
+                <p>Symfony</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="400">
+                <img src="images/skills/MySQL.png" alt="MySql" width="150px">
+                <p>MySQL</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="500">
+                <img src="images/skills/microsoft-sql.png" alt="microsoft sql">
+                <p>MicrosoftSQL</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="600">
+                <img src="images/skills/Oracle.png" alt="Oracle">
+                <p>Oracle</p>
+            </div>
+            <div class="logo skills" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/skills/android.jpg" alt="android">
+                <p>Android</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/skills/c_logo.svg" alt="c">
+                <p>C</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="300">
+                <img src="images/skills/csharp.png" alt="Csharp">
+                <p>C#</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="400">
+                <img src="images/skills/codeigniter-logo.png" alt="codeIgniter">
+                <p>CodeIgniter</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="500">
+                <img src="images/skills/java-logo.png" alt="java">
+                <p>JAVA</p>
+            </div>
+            <div class="logo" data-aos="fade-up" data-aos-delay="600">
+                <img src="images/skills/Swift_logo.png" alt="swift">
+                <p>SWIFT</p>
+            </div>
+
+
+        </div>
+        <div id="about">
+            <div id="aboutNaslov">
+                <h1>ABOUT US</h1>
+            </div>
+            <div id="kica" class="aboutUs" data-aos="fade-up">
+                <h3>Kristijan Djokic</h3>
+                <img src="images/kica.jpg" alt="kica" width="200px">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore tempora sapiente, repellendus sint assumenda consequatur fuga.</p>
+            </div>
+            <div id="djura" class="aboutUs" data-aos="fade-up" data-aos-delay="500">
+                <h3>Jovan Djuric</h3>
+                <img src="images/djura.jpg" alt="djura" width="200px">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore tempora sapiente, repellendus sint assumenda consequatur fuga.</p>
             </div>
         </div>
 
         <footer>
             
                 <form action="/action_page.php" method="GET">
+                    <h1 id="contacts">CONTACTS</h1>
                     <p>First name:</p>
                     <input type="text" name="firstname" aria-label="First Name">
-                    <br>
+                    <br><br>
                     <p>Last name:</p>
                     <input type="text" name="lastname" aria-label="Last Name">
-                    <br>
+                    <br><br>
                     <p>E-mail: </p>
-                    <input type="mail" name="mail" aria-label="e-mail@domain.com">
-                    <br>
+                    <input type="email" name="email" aria-label="e-mail@domain.com">
+                    <br><br>
                     <button>Submit</button>
                   </form> 
             
         </footer>
     </div>
+
+    <script src="dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-sine',
+            delay: 0,
+        });
+    </script>
 </body>
 </html>
