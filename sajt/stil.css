@@ -109,8 +109,17 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
+.skillsNaslov h3{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
 .skills {
     grid-column: 2;
+}
+
+.skillsAlone {
+    grid-column: 2 / 6 span;
 }
 
 .logo {
