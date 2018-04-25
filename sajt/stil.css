@@ -98,13 +98,15 @@ nav a:hover {
     display: grid;
     grid-template-columns: auto 150px 150px 150px 150px 150px 150px auto;
     margin-bottom: 100px;
-    height: 800px;
 }
 
-#skillsNaslov {
+.skillsNaslov {
     grid-column: 2 / 6 span;
     color: black;
-    margin-bottom: 100px;
+}
+
+.skillsNaslov h1{
+    margin-bottom: 50px;
 }
 
 .skills {

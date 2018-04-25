@@ -373,14 +373,6 @@
   </parameters>
   <services>
     <service id="service_container" class="Symfony\Component\DependencyInjection\ContainerInterface" public="true" synthetic="true"/>
-    <service id="SensioLabs\Security\SecurityChecker" class="SensioLabs\Security\SecurityChecker" public="false"/>
-    <service id="SensioLabs\Security\Command\SecurityCheckerCommand" class="SensioLabs\Security\Command\SecurityCheckerCommand" public="false">
-      <tag name="console.command" command="security:check"/>
-      <argument type="service" id="SensioLabs\Security\SecurityChecker"/>
-      <call method="setName">
-        <argument>security:check</argument>
-      </call>
-    </service>
     <service id="EasyCorp\EasyLog\EasyLogHandler" class="EasyCorp\EasyLog\EasyLogHandler" public="false">
       <argument>D:\Programming\Ђура\sajt\sajt\2djsolutions\var\log/dev.log</argument>
     </service>
@@ -4144,9 +4136,8 @@
       <argument type="collection"/>
     </service>
     <service id="console.command_loader" class="Symfony\Component\Console\CommandLoader\ContainerCommandLoader" public="true">
-      <argument type="service" id="service_locator.HZLWQ0A"/>
+      <argument type="service" id="service_locator.Hzvpkbd"/>
       <argument type="collection">
-        <argument key="security:check">SensioLabs\Security\Command\SecurityCheckerCommand</argument>
         <argument key="about">console.command.about</argument>
         <argument key="assets:install">console.command.assets_install</argument>
         <argument key="cache:clear">console.command.cache_clear</argument>
@@ -4213,10 +4204,9 @@
         <argument key="make:migration">maker.auto_command.make_migration</argument>
       </argument>
     </service>
-    <service id="service_locator.HZLWQ0A" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id="service_locator.Hzvpkbd" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
-        <argument key="SensioLabs\Security\Command\SecurityCheckerCommand" type="service" id="SensioLabs\Security\Command\SecurityCheckerCommand"/>
         <argument key="console.command.about" type="service" id="console.command.about"/>
         <argument key="console.command.assets_install" type="service" id="console.command.assets_install"/>
         <argument key="console.command.cache_clear" type="service" id="console.command.cache_clear"/>
