@@ -28,6 +28,11 @@ class srcDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             $canonicalMethod = 'GET';
         }
 
+        // app_index_number
+        if ('/lucky/number' === $pathinfo) {
+            return array (  '_controller' => 'App\\Controller\\IndexController::number',  '_route' => 'app_index_number',);
+        }
+
         if (0 === strpos($pathinfo, '/_')) {
             // _twig_error_test
             if (0 === strpos($pathinfo, '/_error') && preg_match('#^/_error/(?P<code>\\d+)(?:\\.(?P<_format>[^/]++))?$#sD', $pathinfo, $matches)) {

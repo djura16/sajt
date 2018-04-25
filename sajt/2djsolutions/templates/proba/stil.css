@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    color: rgb(179, 179, 179);
+}
+
+#site {
+    display: grid;
+    grid-template-columns: auto 150px 150px 150px 150px 150px 150px auto;
+    margin: auto;
+}
+
+header {
+    grid-column: 1 / 8 span;
+    display: grid;
+    grid-template-columns: auto 300px 300px 300px auto;
+    background-color: #00030D;
+}
+
+header h1 {
+    color: white;
+    line-height: 27px;
+}
+
+#logo {
+    grid-column: 2;
+}
+
+nav {
+    grid-column: 3 / 2 span;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 33px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 1s;
+    transition: background-color 1s;
+    border-radius: 50px;
+}
+
+nav a:hover {
+    color: #00030D;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+#home {
+    grid-column: 1 / 8 span;
+    display: grid;
+    grid-template-columns: auto 450px 450px auto;
+    background-color: rgb(212, 212, 212);
+    height: 800px;
+}
+
+#homeNaslov {
+    grid-column: 2;
+    margin-top: 100px;
+    color: black;
+}
+
+#container1 {
+    grid-column: 2;
+}
+
+.containerHome {
+    background-color: white;
+    text-align: justify;
+    margin:100px 20px 100px 20px;
+    border: 2px dotted black;
+}
+
+.slikaHome {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.containerHome h3, .containerHome p {
+    margin: 10px 12px 10px 12px;
+}
+
+#skills {
+    grid-column: 8 span;
+    display: grid;
+    grid-template-columns: auto 150px 150px 150px 150px 150px 150px auto;
+    margin-bottom: 100px;
+}
+
+.skillsNaslov {
+    grid-column: 2 / 6 span;
+    color: black;
+}
+
+.skillsNaslov h1{
+    margin-bottom: 50px;
+}
+
+.skillsNaslov h3{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.skills {
+    grid-column: 2;
+}
+
+.skillsAlone {
+    grid-column: 2 / 6 span;
+}
+
+.logo {
+    margin: auto;
+    text-align: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+#about {
+    grid-column: 1 / 8 span;
+    display: grid;
+    grid-template-columns: auto 450px 450px auto;
+    background-color: rgb(212, 212, 212);
+    height: 800px;
+}
+
+#aboutNaslov{
+    grid-column: 2;
+    color: black;
+}
+
+.aboutUs {
+    color: black;
+    text-align: justify;
+    margin: 150px 20px;
+}
+
+.aboutUs h3 {
+    text-align: center;
+    text-shadow: 1px 1px 10px black;
+}
+
+.aboutUs img{
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+}
+
+#kica {
+    grid-column: 2;
+}
+
+footer{
+    grid-column: 1 / 8 span;
+    display: grid;
+    grid-template-columns: auto 450px  450px auto;
+    background-color: #001F29;
+}
+
+footer p {
+    display: inline;
+}
+
+footer p:first-child {
+    margin-top: 100px;
+}
+
+footer form {
+    grid-column: 2;
+    margin-bottom: 20px;
+}
+
+footer input {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.219);
+    border: 0;
+    border-radius: 20px;
+}
+
+footer button {
+    padding: 10px 30px 10px 30px;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 5px;
+    border: 0;
+}
+
+footer p {
+    line-height: 2px;
+    margin-left: 10px;
+}
